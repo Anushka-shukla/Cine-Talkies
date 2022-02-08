@@ -14,6 +14,7 @@
     border-radius: 1em;
     margin-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
 }
 
 .film-item img {
@@ -35,12 +36,19 @@
 .section-container {
   margin: 15px;
   box-shadow: 5px 5px 10px grey;
+  padding-top: 15px;
+  padding-bottom: 20px;
  
 }
 
 h3 {
-  font-size: large;
+  font-size: 20px;
   font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  
+  
 }
 
 .home-header {

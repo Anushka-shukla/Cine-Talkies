@@ -8,6 +8,7 @@ import FilmList from './Screens/FilmList';
 function App() {
   return (
     <div className="App">
+      
       <Header text = {StringConstants.heading}  />
       <Heading />
       <FilmList />
