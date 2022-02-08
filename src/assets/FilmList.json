@@ -1,0 +1,34 @@
+{
+    "filmData": [
+        {
+            "sectionName": "Comedy",
+            "filmList": [
+                {
+                    "movieName": "The Dark Knight",
+                    "image": "https://source.unsplash.com/600x400/?knight, movie",
+                    "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+                },
+                {
+                    "movieName": "Inception",
+                    "image": "https://source.unsplash.com/600x400/?inception, movie",
+                    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster."
+                },
+                {
+                    "movieName": "Star Wars: Episode V - The Empire Strikes Back",
+                    "image": "https://source.unsplash.com/600x400/?starwars, movie",
+                    "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett."
+                },
+                {
+                    "movieName": "The Matrix",
+                    "image": "https://source.unsplash.com/600x400/?matrix, movie",
+                    "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
+                },
+                {
+                    "movieName": "Spider-Man: No Way Home",
+                    "image": "https://source.unsplash.com/600x400/?spiderman, movie",
+                    "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man."
+                }
+            ]
+        }
+    ]
+}

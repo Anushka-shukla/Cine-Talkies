@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import StringConstants from './assets/StringConstants';
+import Header from './GlobalComponent/Header';
+import Footer from './GlobalComponent/Footer';
+import './GlobalComponent/style.css';
+import Heading from './GlobalComponent/Heading';
+import FilmList from './Screens/FilmList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header text = {StringConstants.heading}  />
+      <Heading />
+      <FilmList />
+      <Footer text={StringConstants.footnote} />
     </div>
-  );
+  )
 }
 
 export default App;
+
