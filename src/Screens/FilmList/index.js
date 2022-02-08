@@ -4,12 +4,11 @@ import './style.css';
 
 // const json = require("../../assets/FilmList.json")
 
-// const json= require('../../asset/CourseList.json')
 
 const FilmList = () => {
 
     // const sectionList = json.section;
-    //inline json data :
+
     const sectionList = [
         {
             sectionName: "Thriller",
@@ -112,8 +111,6 @@ const FilmList = () => {
 
             ]
         }];
-    //       //the array of course-item for making courselist
-    // }
 
     return (
         <div className="film-list-container">
@@ -137,4 +134,3 @@ const FilmList = () => {
 
 export default FilmList;
 
-// filmList.map(item => <Filmtem item {...item} 

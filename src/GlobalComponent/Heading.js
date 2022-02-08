@@ -7,21 +7,17 @@ import Header from './Header';
 function Heading(props) {
 
     return (
-        // <div> <h1>Cine Talkies</h1>
-        //     </div>
-
-
 
         <header className="home-header">
             <div className="logo" onClick={() => scroll.scrollToTop()}>
-                <Header/>
-                {/* <h1>{props.text}</h1> */}
+                <Header />
+
             </div>
 
             <ul className="links">
                 <li>
                     <Link to="Thriller" smooth={true} duration={1000}>
-                    Thriller
+                        Thriller
                     </Link>
                 </li>
                 <li>
