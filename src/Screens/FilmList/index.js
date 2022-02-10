@@ -1,12 +1,14 @@
 import React from 'react';
 import FilmItem from './Component/FilmItem';
 import './style.css';
-import { sectionList } from '../../assets/FilmData';
-// const json = require("../../assets/FilmList.json")
+//import { sectionList } from '../../assets/FilmData';
+ const json = require("../../assets/FilmList.json")
 
 const FilmList = () => {
 
-    // const sectionList = json.section;
+    const sectionList = json.filmData;
+    console.log("this is json data", json);
+    console.log(sectionList);
 
     return (
         <div className="film-list-container">
