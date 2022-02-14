@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 import './style.css';
-import Header from './Header';
+// import Header from './Header';
 
 function Heading(props) {
 
@@ -14,7 +14,7 @@ function Heading(props) {
                     {/* <Header/> */}
                 </div>
 
-                <ul className="links">
+                {/* <ul className="links">
                     <li>
                         <Link to="Thriller" smooth={true} duration={1000}>
                             Thriller
@@ -30,7 +30,7 @@ function Heading(props) {
                             Sci-Fi
                         </Link>
                     </li>
-                </ul>
+                </ul> */}
             </header>
 
         

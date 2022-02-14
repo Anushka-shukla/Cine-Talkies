@@ -2,7 +2,7 @@ import React from 'react';
 
 function Description(props) {
     return (
-        <h4>{props.text}</h4>
+        <h5>{props.text}</h5>
     )
 }
 

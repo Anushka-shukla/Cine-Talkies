@@ -1,14 +1,17 @@
 import React from 'react';
 import FilmItem from './Component/FilmItem';
 import './style.css';
+import { getSectionList } from './utils';
 //import { sectionList } from '../../assets/FilmData';
  const json = require("../../assets/FilmList.json")
 
 const FilmList = () => {
 
-    const sectionList = json.filmData;
+    const flatList = json.filmList;
     console.log("this is json data", json);
-    console.log(sectionList);
+    // console.log(sectionList);
+    const sectionList = getSectionList (flatList);
+    console.log("The sectioned data I got is: ", sectionList);
 
     return (
         <div className="film-list-container">

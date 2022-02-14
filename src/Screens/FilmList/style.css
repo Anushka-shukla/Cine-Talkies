@@ -1,19 +1,20 @@
 
 
 .film-list-container {
-    background-color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    padding: 10px;
-    border-radius: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 1em;
+  background-color: white;
 
 }
 
 
 .film-item {
+    
     padding: 10px;
     border-radius: 1em;
     margin-top: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(131, 118, 118, 0.2);
     
 }
 
@@ -31,6 +32,12 @@
     background-color: #fff;
     border-radius: 1em;
     
+}
+
+.film-container{
+  background-color: #fff;
+  border-radius: 1em;
+  display: grid;
 }
 
 .section-container {

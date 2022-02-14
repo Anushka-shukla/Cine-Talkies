@@ -2,7 +2,7 @@ import React from 'react';
 
 function Title(props) {
     return (
-        <h3>{props.text}</h3>
+        <h4 className="section-name">{props.text}</h4>
     )
 }
 
