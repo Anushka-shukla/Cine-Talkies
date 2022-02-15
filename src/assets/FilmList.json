@@ -89,6 +89,14 @@
             "sectionName": "Sci-Fi",
             "image": "https://source.unsplash.com/600x400/?Yoda",
             "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett."
+        },
+
+        {
+            "movieName": "Star Wars: Episode II - Attack of the Clones",
+            "sectionName": "Horror",
+            "image": "https://source.unsplash.com/600x400/?Yoda",
+            "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett."
         }
+
     ]
 }

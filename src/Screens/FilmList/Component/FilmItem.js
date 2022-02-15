@@ -4,7 +4,7 @@ import Description from '../../../GlobalComponent/Description';
 
 function FilmItem(props) {
     return (
-        <div className="film-item" >
+        <div className="film-item">
            <img src={props.image} />
            <Title text = {props.movieName} />  
            <Description text = {props.description} />

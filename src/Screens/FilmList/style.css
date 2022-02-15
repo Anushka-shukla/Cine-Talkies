@@ -184,3 +184,47 @@ h3 {
     }
 
 }
+
+
+
+
+.section-list {
+    display: grid;
+    background-color: teal;
+}
+
+
+
+@media (min-width:0px) and (max-width: 500px) {
+    .responsive-section-list {
+        grid-template-columns: 1fr;
+    }
+
+ }
+
+ @media (min-width:500px) and (max-width: 900px) {
+    .responsive-section-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (min-width:900px) and (max-width: 1200px) {
+    .responsive-section-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+@media (min-width:1200px) and (max-width: 1600px) {
+    .responsive-section-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width:1600px) and (max-width: 3000px) {
+    .responsive-section-list {
+        grid-template-columns: repeat(6, 1fr);
+    }
+  }
