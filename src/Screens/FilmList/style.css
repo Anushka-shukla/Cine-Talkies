@@ -191,6 +191,7 @@ h3 {
 .section-list {
     display: grid;
     background-color: teal;
+    color: aliceblue;
 }
 
 
