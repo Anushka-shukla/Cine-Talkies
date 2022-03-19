@@ -2,7 +2,7 @@ import FilmItem from './Component/FilmItem';
 import './style.css';
 import { getSectionList } from './utils';
 import SectionList from './Component/SectionList';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef} from 'react';
 import { useSelector } from 'react-redux';
 //import { sectionList } from '../../assets/FilmData';
 
